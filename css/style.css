@@ -2,5 +2,50 @@ body {
   overflow-x: hidden;
   font-family: Roboto;
   color: #fff;
-  background-color: #000;
+  background-color: #1B1B1E;
+  margin: 1rem;
 }
+
+.toggle-button {
+  height: 2.5rem;
+  width: 4rem;
+  right: 274px;
+  top: 24px;
+  border-radius: 0px;
+  background-color: #1B1B1E;
+}
+
+.rect1 {
+  height: 0.3rem;
+  width: 4rem;
+  left: 274px;
+  top: 24px;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.rect2 {
+  height: 0.3rem;
+  width: 4rem;
+  left: 274px;
+  top: 33px;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.rect3 {
+  height: 0.3rem;
+  width: 4rem;
+  left: 274px;
+  top: 42px;
+  margin-top: 0.5rem;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.toggle-button:hover{
+  background-color: blue;
+}
+
+
+
