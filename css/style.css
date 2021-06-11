@@ -72,5 +72,25 @@ hr {
   opacity: 1;
 }
 
+ul {
+  width: 100%;
+  list-style: none;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+
+.fa {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  margin-left: 0px;
+}
+
+
 
 
