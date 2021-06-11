@@ -1,9 +1,13 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 body {
   overflow-x: hidden;
   font-family: Roboto;
   color: #fff;
   background-color: #1B1B1E;
-  margin: 1rem;
 }
 
 .toggle-button {
@@ -50,7 +54,7 @@ body {
 .circle {
   height: 6rem;
   width: 6rem;
-  background: #D4AF37;
+  background: #DB4747;
   left: 255px;
   top: 76px;
   border-radius: 50%;
@@ -61,7 +65,7 @@ body {
 }
 
 .works {
-  color: #D4AF37;
+  color: #DB4747;
 }
 
 hr {
@@ -85,10 +89,32 @@ ul {
   width: 3rem;
   text-align: center;
   text-decoration: none;
+  color: white;
 }
 
 li {
   margin-left: 0px;
+}
+
+.my-projects {
+  height: 40vh;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%);
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("/images/myproject1.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-name, .see-project {
+  margin-left: 2rem;
+  background-color: #DB4747;
+  width: fit-content;
+
+}
+
+.lang-frameworks {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
