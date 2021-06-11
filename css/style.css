@@ -117,6 +117,15 @@ li {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.collaboration-btn {
+  width: 100%;
+  background-color: #DB4747;
+  color: white;
+  border-radius: 10px;
+  margin:0 auto;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
 
 
 
