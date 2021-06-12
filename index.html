@@ -66,7 +66,10 @@
      <p class = "">Hello everyone! I am a full-stack developer who specializes in building web applications(frontend and backend). I am a passionate software developer with a love for clean code and accessible design. I am reliable, resilient, a fast learner, a good communicator, a good team player, details oriented, with a high drive for success. Fluent in multiple programming languages, frameworks, and technologies, and capable of ramping up quickly and efficiently. I am looking for challenging opportunities to exhibit my know-how and share knowledge and skills accrued so far.</p>
      <p class = "">I love jogging and swimming. In my free time, a take the kids to the park or to swim.</p>
 
-      <button class = "collaboration-btn h3 p-2"> Start Collaboration Here </button>
+     <div class="collaboration d-flex flex-column align-items-center">
+      <button class="btn btn-danger" type="submit">Start Collaboration Here</button>
+    </div>
+      <!-- <button class = "collaboration-btn h3 p-2"> Start Collaboration Here </button> -->
     </section> 
     
     <section class="languages-skills d-flex flex-column align-items-center">
@@ -125,20 +128,31 @@
          <li class = "my-3 h3">Team-Player</li>
        </ul>
       </div>
-           
+
     </section>
 
-  <section class="getting-started bg-warning">
+  <section class="getting-started mx-5">
      <div class="get-started">
-       <h2>get started</h2>
-       <p>some text here</p>
+       <p class = "h3">Interested in collaborating ?</p>
+       <h2 class = "display-2">Get Started</h2>
+       <p>If you are interested in collaborating, do leave a message. Thank you</p>
      </div>
-     <div class="contact-form">
-       <p>contact form goes here</p>
+     <div class="contact-form d-flex flex-column align-items-center">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control py-2" placeholder="Your name" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control py-2" placeholder="Your email" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <textarea class="form-control py-4" aria-label="With textarea" placeholder="Enter your message here..."></textarea>
+        </div>
+        
+        <div class="collaboration ">
+          <button class="btn btn-danger" type="submit">Start Collaboration</button>
+        </div>
      </div>
-     <button class="start-collaboration">
-       start collaboration
-     </button>
    </section>
    <hr>
  </main>
