@@ -76,7 +76,7 @@ hr {
   opacity: 1;
 }
 
-ul {
+.hero-area > ul {
   width: 100%;
   list-style: none;
   margin-left: 0rem;
@@ -124,6 +124,18 @@ li {
   border-radius: 10px;
   margin:0 auto;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.languages {
+  width: 80%; 
+  height: fit-content;
+  background-color:#212123;
+  box-shadow: 0px 1.91837px 23.0204px rgba(0, 0, 0, 0.25);
+  border-radius: 3.83673px;  
+}
+
+.ic-languages {
+  width: 4rem;
 }
 
 
